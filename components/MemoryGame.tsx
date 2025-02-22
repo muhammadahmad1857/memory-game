@@ -8,7 +8,7 @@ interface Card {
 
 const MemoryGame = () => {
   // Initialize state with proper types.
-  const [gridSize, setGridSize] = useState<number>(2);
+  const [gridSize, setGridSize] = useState<number>(4);
   const [cardList, setCardList] = useState<Card[]>([]);
   const [flipped, setFlipped] = useState<number[]>([]);
   const [matched, setMatched] = useState<number[]>([]);
